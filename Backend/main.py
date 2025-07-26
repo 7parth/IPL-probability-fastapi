@@ -6,7 +6,7 @@ import pickle
 from pydantic import BaseModel,Field,computed_field
 from typing import Annotated,Literal
 from fastapi.middleware.cors import CORSMiddleware
-import sklearn
+
 
 app = FastAPI()
 origins = [
