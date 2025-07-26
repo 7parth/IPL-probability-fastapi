@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { PredictionRequest, PredictionResponse } from '../types/prediction';
 
-const API_BASE_URL = 'http://127.0.0.1:8000';
+const API_BASE_URL = 'https://ipl-probability-backend.onrender.com';
 
 export const predictMatch = async (data: PredictionRequest): Promise<PredictionResponse> => {
   try {
