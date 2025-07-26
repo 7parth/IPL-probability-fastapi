@@ -72,12 +72,6 @@ uvicorn main:app --reload
 
 ---
 
-## 🌐 Live Deployment
-
-- **Frontend:** [https://ipl-probability.vercel.app](https://ipl-probability.vercel.app) (Vercel)
-- **Backend API:** [https://ipl-probability-api.onrender.com](https://ipl-probability-api.onrender.com) (Render)
-
----
 
 ## 📷 Screenshots
 
