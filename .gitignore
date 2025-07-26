@@ -1,0 +1,34 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info
+*.log
+*.pot
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node/React
+node_modules/
+dist/
+build/
+.DS_Store
+.env.local
+.env.development
+.env.production
+.env.test
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
