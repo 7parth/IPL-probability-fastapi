@@ -1,4 +1,3 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/08947b76-4337-437e-9226-d2bd5a2d8409" />
 # IPL Win Probability Predictor 🎯🏏
 
 Welcome to the **IPL Win Probability Predictor** — a full-stack machine learning application that predicts the win probability of IPL teams during live matches.
