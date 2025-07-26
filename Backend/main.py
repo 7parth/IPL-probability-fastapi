@@ -9,12 +9,18 @@ from fastapi.middleware.cors import CORSMiddleware
 import sklearn
 
 app = FastAPI()
+origins = [
+    "https://ipl-probability-fastapi.vercel.app",
+    "http://localhost:3000"  # For local development
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ipl-probability-fastapi.vercel.app/"],  
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"]
 )
 
 with open('pipe.pkl' , 'rb') as f:
